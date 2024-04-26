@@ -28,7 +28,7 @@ const CarCreatorForm = ({ createCarRequest }) => {
       <Formik initialValues={initialValues} onSubmit={hendleSubmit}>
         <Form>
           <Field name="model" placeholder="model" />
-          <Field name="year" type="date" />
+          <Field name="year" type="year" placeholder='enter year'/>
           <Field name="manufacturer" placeholder="manufacturer" />
           <Field name="km" placeholder="km" type="number" />
           <Field name="color" placeholder="color" />

@@ -14,7 +14,7 @@ const TakeAllCars = (props) => {
       ...values,
     };
     findAllCarRequest(cars);
-    console.log(props);
+    console.log(props.cars);
   };
 
   const carList = cars.map((car, index) => (
