@@ -1,4 +1,4 @@
-import { connect } from "react-redux";
+import { connect, useSelector, useDispatch} from "react-redux";
 import "../../App.css";
 import * as CounterActionCreators from "../../redux/actions/counterActionCreators";
 
